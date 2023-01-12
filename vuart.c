@@ -23,7 +23,7 @@ struct file_operations vuart_fops = {
     unlocked_ioctl : vuart_ioctl
 };
 //
-static char *read_info = "GOODISDOG";
+static char *read_info = "GOD-IS-DOG";
 
 static int __init vuart_init(void)
 {
